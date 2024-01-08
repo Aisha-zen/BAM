@@ -1,0 +1,16 @@
+body{
+  padding: 1rem;
+}
+nav{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Outfit', sans-serif;
+}
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+ 

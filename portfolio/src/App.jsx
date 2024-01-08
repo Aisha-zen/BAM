@@ -1,11 +1,14 @@
 import './App.css'
+import Nav from './nav.jsx'
+import Hero from './hero.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
     <>
-    
+    <Nav/>
+    <Hero/>
+  
     </>
   )
 }
