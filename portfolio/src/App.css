@@ -1,5 +1,6 @@
 body{
   padding: 1rem;
+  font-family: 'Outfit', sans-serif;
 }
 nav{
   padding-left: 3rem;
@@ -12,5 +13,7 @@ nav{
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
 }
-
+.head{
+  font-family: 'Playfair', serif;
+}
  

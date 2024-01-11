@@ -1,6 +1,7 @@
 import './App.css'
 import Nav from './nav.jsx'
-import Hero from './hero.jsx'
+import Hero from './Hero.jsx'
+import About from './about.jsx'
 
 function App() {
  
@@ -8,6 +9,8 @@ function App() {
     <>
     <Nav/>
     <Hero/>
+    <About/>
+  
   
     </>
   )
