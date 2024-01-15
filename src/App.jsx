@@ -1,7 +1,7 @@
 import './App.css'
 import Nav from './nav.jsx'
 import Hero from './Hero.jsx'
-import About from './about.jsx'
+import About from './About.jsx'
 
 function App() {
  
