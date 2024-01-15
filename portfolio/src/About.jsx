@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 
-function about() {
+function About() {
   return (
   <div className='w-full '>
    <div className='flex lg:flex-row flex-col pt-20 pb-20 justify-between w-[95%] mx-auto '>
@@ -32,4 +32,4 @@ function about() {
   )
 }
 
-export default about
+export default About
