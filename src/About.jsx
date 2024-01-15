@@ -15,11 +15,11 @@ function About() {
             <p className='text-[.9rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deserunt rem quis perspiciatis quia ut, aliquid iusto dignissimos laboriosam cupiditate nemo harum deleniti reiciendis! Quam, placeat qui numquam doloribus deserunt voluptatum iure modi. Voluptatum delectus, debitis vero unde ipsa exercitationem eaque asperiores voluptatem mollitia veniam quos alias, voluptate ab enim.</p>
         </div>
     </div>
-    <div className='flex lg:w-[48%] w-full md:pt-[40%] pt-[70%] lg:pt-0 gap-5  items-center relative'>
+    <div className='flex lg:w-[48%] md:w-[90%] mx-auto w-full md:pt-[40%] pt-[70%] lg:pt-0 gap-5  items-center relative'>
         <div className='w-[48%] h-[380px] absolute'>
         <img src='about1.png' className='w-full h-full'></img>
         </div>
-        <div className='w-[48%] h-[380px] absolute lg:left-[55%] md:left-[50%] left-[52%]  lg:top-[20%] md:top-[55%] top-[50%]'>
+        <div className='w-[48%] h-[380px] absolute lg:left-[55%] md:left-[50%] left-[52%]  lg:top-[20%] md:top-[65%] top-[50%]'>
         <img src='about2.png' className='w-full h-full'></img>
         </div>
        
