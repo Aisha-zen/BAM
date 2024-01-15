@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceGrid from './ServiceGrid';
+import './App.css'
 
 function Services() {
   return (

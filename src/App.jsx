@@ -3,6 +3,7 @@ import Nav from './nav.jsx'
 import Hero from './Hero.jsx'
 import About from './About.jsx'
 import Services from './Services.jsx'
+import Works from './works.jsx'
 
 function App() {
  
@@ -12,6 +13,7 @@ function App() {
     <Hero/>
     <About/>
     <Services/>
+    <Works/>
   
   
     </>

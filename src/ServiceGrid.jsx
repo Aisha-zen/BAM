@@ -3,7 +3,7 @@ import React from 'react';
 const ServiceCard = ({ title, description }) => (
   <div className='border border-[#94D82D] flex flex-col gap-7 p-3 hover:bg-[#94D82D]'>
     <h2 className='head text-xl'>{title}</h2>
-    <p>{description}</p>
+    <p className='text-sm font-light'>{description}</p>
   </div>
 );
 
