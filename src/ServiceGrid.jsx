@@ -11,7 +11,7 @@ const ServiceGrid = () => {
   const services = [
     {
       title: 'Architectural & Interior design',
-      description:'Our architectural and interior design services focus on creating spaces that seamlessly blend aesthetics with functionality.',
+      description: 'Our architectural and interior design services focus on creating spaces that seamlessly blend aesthetics with functionality.',
     },
     {
       title: 'Landscapde Design',

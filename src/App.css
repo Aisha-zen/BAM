@@ -1,16 +1,18 @@
-body{
+body {
   padding: 1rem;
   font-family: 'Outfit', sans-serif;
 }
-nav{
+
+nav {
   padding: 1rem;
   font-family: 'Outfit', sans-serif;
 }
+
 .logo {
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
 }
-.head{
+
+.head {
   font-family: 'Playfair', serif;
 }
- 
