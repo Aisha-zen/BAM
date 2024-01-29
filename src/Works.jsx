@@ -13,9 +13,9 @@ function Works() {
           <div className='flex flex-col'>
             <div className='flex items-center gap-3 text-[#94D82D] '>
               <img src='line.png'></img>
-              <p>Services</p>
+              <p>Our recent works</p>
             </div>
-            <div className='lg:w-[40%] w-full '>
+            <div className='lg:w-[40%] w-full lg:pb-0 pb-5'>
               <h1 className='text-4xl  font-normal head '>Some of our crafts made with love</h1>
             </div>
           </div>
