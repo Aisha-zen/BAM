@@ -10,7 +10,7 @@ function About() {
                         <p>About Us</p>
                     </div>
                     <div className='flex flex-col gap-5'>
-                        <h1 className='text-4xl  font-normal head'>We help to bring your dream home to reality</h1>
+                        <h1 className='lg:text-4xl text-2xl font-normal head'>We help to bring your dream home to reality</h1>
                         <p className='text-[.9rem]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam ex consectetur iste tempora animi hic velit aspernatur unde voluptatum dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quaerat.</p>
                         <p className='text-[.9rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deserunt rem quis perspiciatis quia ut, aliquid iusto dignissimos laboriosam cupiditate nemo harum deleniti reiciendis! Quam, placeat qui numquam doloribus deserunt voluptatum iure modi. Voluptatum delectus, debitis vero unde ipsa exercitationem eaque asperiores voluptatem mollitia veniam quos alias, voluptate ab enim.</p>
                     </div>

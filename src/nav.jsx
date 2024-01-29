@@ -18,7 +18,7 @@ function Nav() {
 
   return (
     <>
-      <header className='flex items-center justify-between  w-full flex-wrap sticky top-0 z-20 '>
+      <header className='flex items-center justify-between  w-full flex-wrap sticky top-0 z-20 bg-gray-50'>
         <div className="font-medium logo"><NavLink to="/" >
           mabdesign</NavLink>
         </div>

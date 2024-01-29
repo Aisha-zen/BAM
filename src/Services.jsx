@@ -14,7 +14,7 @@ function Services() {
                 <p>Services</p>
               </div>
               <div className='lg:w-[40%] w-full '>
-                <h1 className='text-4xl  font-normal head '>We provide the best solutions for your dream home</h1>
+                <h1 className='lg:text-4xl text-2xl  font-normal head '>We provide the best solutions for your dream home</h1>
               </div>
             </div>
             <ServiceGrid />
