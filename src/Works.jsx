@@ -8,7 +8,7 @@ import go from '../public/go.svg'
 function Works() {
   return (
     <>
-      <div className='w-full pt-10'>
+      <div className='w-full pt-10 '>
         <div className='w-[95%] mx-auto'>
           <div className='flex flex-col'>
             <div className='flex items-center gap-3 text-[#94D82D] '>
@@ -16,7 +16,7 @@ function Works() {
               <p>Our recent works</p>
             </div>
             <div className='lg:w-[40%] w-full lg:pb-0 pb-5'>
-              <h1 className='text-4xl  font-normal head '>Some of our crafts made with love</h1>
+              <h1 className='lg:text-4xl text-2xl  font-normal head '>Some of our crafts made with love</h1>
             </div>
           </div>
           <div className='flex lg:flex-row flex-col items-center justify-between w-full gap-10'>
@@ -44,13 +44,13 @@ function Works() {
               </div>
             </div>
           </div>
-          <div className='lg:pt-0 pt-10'>
+          <div className='lg:pt-0 pt-10 pb-10'>
             <button className='bg-[#94D82D] px-4 py-2  text-white flex items-center'> Contact <img src={go} /></button>
 
           </div>
 
         </div>
-
+        <hr />
       </div>
 
 

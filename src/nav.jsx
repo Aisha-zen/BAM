@@ -18,7 +18,7 @@ function Nav() {
 
   return (
     <>
-      <header className='flex items-center justify-between  w-full flex-wrap sticky top-0 z-20 bg-gray-50'>
+      <header className='flex items-center justify-between  w-full flex-wrap sticky top-0 z-20 bg-white shadow-sm'>
         <div className="font-medium logo"><NavLink to="/" >
           mabdesign</NavLink>
         </div>
@@ -27,7 +27,7 @@ function Nav() {
             <NavLink to="/about" >About</NavLink>
             <NavLink to="/Services" >Services </NavLink>
             <NavLink to="/Works" >Our works </NavLink>
-            <NavLink to="/Contact"  className='bg-[#94D82D] px-4 py-2 text-white flex items-center'> Contact <img src={go} /> </NavLink>
+            <NavLink to="/Contact" className='bg-[#94D82D] px-4 py-2 text-white flex items-center'> Contact <img src={go} /> </NavLink>
           </div>
           <div className='md:hidden'>
             <button onClick={toogleNavbar}> {isOpen ? <X /> : <Menu />} </button>
@@ -35,7 +35,7 @@ function Nav() {
 
         </nav>
         {isOpen && (
-          <div className='flex basis-full flex-col  gap-5 font-regular items-center'>
+          <div className='flex basis-full flex-col  gap-5 font-regular items-center pb-5'>
             <NavLink to="/about" onClick={closeMenu}>About</NavLink>
             <NavLink to="/Services" onClick={closeMenu}>Services </NavLink>
             <NavLink to="/Works" onClick={closeMenu}>Our works </NavLink>
