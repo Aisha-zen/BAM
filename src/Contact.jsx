@@ -24,8 +24,8 @@ function Contact() {
                           <p className='head text-[#94D82D] text-2xl  lg:text-3xl font-normal'>+234-70-301-733-70</p>
                       </div>
                   </div>
-                  <hr/>
               </div>
+              <hr/>
           </div>
       
       
