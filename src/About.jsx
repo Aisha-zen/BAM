@@ -11,8 +11,8 @@ function About() {
                     </div>
                     <div className='flex flex-col gap-5'>
                         <h1 className='lg:text-4xl text-2xl font-normal head'>We help to bring your dream home to reality</h1>
-                        <p className='text-[.9rem]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam ex consectetur iste tempora animi hic velit aspernatur unde voluptatum dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quaerat.</p>
-                        <p className='text-[.9rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deserunt rem quis perspiciatis quia ut, aliquid iusto dignissimos laboriosam cupiditate nemo harum deleniti reiciendis! Quam, placeat qui numquam doloribus deserunt voluptatum iure modi. Voluptatum delectus, debitis vero unde ipsa exercitationem eaque asperiores voluptatem mollitia veniam quos alias, voluptate ab enim.</p>
+                        <p className='text-[.9rem]'> With our passion for design and commitment to excellence, we strive to create spaces that inspire and delight..</p>
+                        <p className='text-[.9rem]'> Our team of talented architects, designers, and craftsmen work tirelessly to bring your vision to life, ensuring that every detail is meticulously crafted to perfection. With years of experience in the industry, we have earned a reputation for delivering exceptional archiectural solutions tailored to our clients' unique needs and preferences.</p>
                     </div>
                 </div>
                 <div className='flex lg:w-[48%] md:w-[90%] mx-auto w-full md:pt-[30%] pt-[70%] lg:pt-0 gap-5  items-center relative'>
