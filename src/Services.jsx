@@ -1,6 +1,8 @@
 import React from "react";
 import ServiceGrid from "./ServiceGrid";
 import "./App.css";
+import Nav from "./nav.jsx";
+
 
 function Services() {
   return (

@@ -1,5 +1,5 @@
 body {
-  padding: 1rem;
+  /* padding: 1rem; */
   font-family: 'Outfit', sans-serif;
 }
 
@@ -15,4 +15,12 @@ nav {
 
 .head {
   font-family: 'Playfair', serif;
+}
+
+.background-div {
+  background-image: url('public/pergola.jpg');
+  background-size: cover;
+  /* Ensures the image covers the entire div */
+  background-position: center;
+  
 }

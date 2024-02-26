@@ -18,15 +18,16 @@ function Nav() {
 
   return (
     <>
-      <header className="flex items-center justify-between  w-full flex-wrap sticky top-0 z-20 bg-white shadow-sm">
+      <header className="flex items-center justify-between px-[1rem]  w-full flex-wrap  top-0 z-20 bg-white shadow-sm">
         <div className="font-medium logo">
-          <NavLink to="/">mabdesign</NavLink>
+          <NavLink to="/Home">mabdesign</NavLink>
         </div>
         <nav className="flex">
           <div className="hidden md:flex gap-5 font-regular items-center">
+            <NavLink to="/Home">Home</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/Services">Services </NavLink>
-            <NavLink to="/Works">Our works </NavLink>
+            <NavLink to="/Project">Projects </NavLink>
             <NavLink
               to="/Contact"
               className="bg-[#94D82D] px-4 py-2 text-white flex items-center"
@@ -54,8 +55,8 @@ function Nav() {
             <NavLink to="/Services" onClick={closeMenu}>
               Services{" "}
             </NavLink>
-            <NavLink to="/Works" onClick={closeMenu}>
-              Our works{" "}
+            <NavLink to="/Project" onClick={closeMenu}>
+              Projects{" "}
             </NavLink>
             <NavLink
               to="/Contact"

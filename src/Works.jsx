@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import go from "../public/go.svg";
+import Nav from "./nav";
 
 function Works() {
   return (
@@ -56,10 +57,12 @@ function Works() {
             </div>
           </div>
           <div className="lg:pt-0 pt-10 pb-10">
-            <button className="bg-[#94D82D] px-4 py-2  text-white flex items-center">
-              {" "}
-              Contact <img src={go} />
-            </button>
+            {/* <link to="/Project"> */}
+              <button className="bg-[#94D82D] px-4 py-2  text-white flex items-center">
+                {" "}
+                See All <img src={go} />
+              </button>{" "}
+            {/* </link> */}
           </div>
         </div>
         <hr />
