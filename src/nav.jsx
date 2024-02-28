@@ -20,11 +20,11 @@ function Nav() {
     <>
       <header className="flex items-center justify-between px-[1rem]  w-full flex-wrap  top-0 z-20 bg-white shadow-sm">
         <div className="font-medium logo">
-          <NavLink to="/Home">mabdesign</NavLink>
+          <NavLink to="/">mabdesign</NavLink>
         </div>
         <nav className="flex">
           <div className="hidden md:flex gap-5 font-regular items-center">
-            <NavLink to="/Home">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/Services">Services </NavLink>
             <NavLink to="/Project">Projects </NavLink>
@@ -49,7 +49,7 @@ function Nav() {
             initial={{ y: 500 }}
             className="w-full h-screen flex flex-col gap-10 pt-5  font-regular"
           >
-            <NavLink to="/Home" onClick={closeMenu}>
+            <NavLink to="/" onClick={closeMenu}>
               Home
             </NavLink>
             <NavLink to="/about" onClick={closeMenu}>
