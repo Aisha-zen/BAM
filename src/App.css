@@ -17,10 +17,3 @@ nav {
   font-family: 'Playfair', serif;
 }
 
-.background-div {
-  background-image: url('public/pergola.jpg');
-  background-size: cover;
-  /* Ensures the image covers the entire div */
-  background-position: center;
-  
-}

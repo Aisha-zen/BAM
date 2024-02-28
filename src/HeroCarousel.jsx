@@ -1,5 +1,4 @@
 import React from "react";
-import garden from "../public/garden.mp4";
 import pergola from "../public/pergola.jpg";
 import mab from "../public/mab.jpg";
 import Slider from "react-slick";

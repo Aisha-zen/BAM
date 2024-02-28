@@ -49,6 +49,9 @@ function Nav() {
             initial={{ y: 500 }}
             className="w-full h-screen flex flex-col gap-10 pt-5  font-regular"
           >
+            <NavLink to="/Home" onClick={closeMenu}>
+              Home
+            </NavLink>
             <NavLink to="/about" onClick={closeMenu}>
               About
             </NavLink>
