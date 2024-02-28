@@ -9,7 +9,7 @@ function Project() {
     <>
       <Nav />
       <div>
-        <h1 className="font-medium head py-10 text-center md:text-xl text-xm md:w-full w-[90%] mx-auto ">
+        <h1 className="font-medium head py-10 text-center md:text-xl text-xm md:w-full w-[95%] mx-auto ">
           Discover our portfolio featuring Landscape, Redesign, Construction,
           and Interior Design.
           <br /> Experience outdoor beauty, redesign transformations,
