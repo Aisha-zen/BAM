@@ -23,8 +23,7 @@ function Contact() {
                 IBADAN, OYO STATE
               </p>
               <p className="lg:text-[1rem] text-[.9rem] font-light">
-                No1, Road2, Maberi/Idi-ishin, Liberty academy, <br />
-                Odo-ona elewe, Orita Challlenge.
+                Oluyole extension, off Akala express way,<br/> new garage Ibadan
               </p>
             </div>
             <div className="flex flex-col gap-3">
