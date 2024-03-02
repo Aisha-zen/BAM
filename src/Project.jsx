@@ -3,21 +3,23 @@ import Nav from "./nav.jsx";
 import "./App.css";
 import ImageGrid from "./ImageGrid.jsx";
 
-
 function Project() {
   return (
     <>
       <Nav />
-      <div>
-        <h1 className="font-medium head py-10 text-center md:text-xl text-xm md:w-full w-[95%] mx-auto ">
+      <div className="flex flex-col gap-5 py-10">
+        <h1 className="lg:text-4xl text-3xl text-bold text-center head">
+          Our Projects
+        </h1>
+        <h2 className="font-light text-center md:text-xl text-xm md:w-full w-[95%] mx-auto ">
           Discover our portfolio featuring Landscape, Redesign, Construction,
           and Interior Design.
           <br /> Experience outdoor beauty, redesign transformations,
           construction marvels, and interior artistry.
-        </h1>
+        </h2>
       </div>
-     
-      <ImageGrid/>
+
+      <ImageGrid />
     </>
   );
 }
