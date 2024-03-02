@@ -11,12 +11,13 @@ function Project() {
         <h1 className="lg:text-4xl text-3xl text-bold text-center head">
           Our Projects
         </h1>
-        <h2 className="font-light text-center md:text-xl text-xm md:w-full w-[95%] mx-auto ">
+        <h2 className="font-light text-center md:text-1.2rem text-0.9rem md:w-full w-[95%] mx-auto ">
           Discover our portfolio featuring Landscape, Redesign, Construction,
           and Interior Design.
           <br /> Experience outdoor beauty, redesign transformations,
           construction marvels, and interior artistry.
         </h2>
+        <hr />
       </div>
 
       <ImageGrid />
