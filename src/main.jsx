@@ -6,7 +6,7 @@ import About from "./About.jsx";
 import Services from "./Services.jsx";
 import Works from "./Works.jsx";
 import Project from "./Project.jsx";
-import ProjectDetails from "./ProjectDetails";
+import ProjectDetails from "./projectdetails.jsx";
 import Contact from "./Contact.jsx";
 // import HomeAbout from "./components/HomeAbout.jsx";
 import Footer from "./Footer.jsx";
