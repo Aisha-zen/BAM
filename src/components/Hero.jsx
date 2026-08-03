@@ -1,6 +1,14 @@
 import "./App.css";
+import { useState, useEffect } from "react";
+
 
 export default function Hero() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page on component mount
+  }, []);
+
+
   return (
     <>
       <div className="w-full">

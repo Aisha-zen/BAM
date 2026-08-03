@@ -1,21 +1,27 @@
 import "./App.css";
 import Nav from "./nav.jsx";
-import HeroCarousel from "./HeroCarousel.jsx";
-// import Services from "./HServices.jsx";
-import Contact from "./Contact.jsx";
+import HeroCarousel from "./components/HeroCarousel.jsx";
+import ServicesPreview from "./components/ServicesPreview.jsx"
+import HomeAbout from "./components/HomeAbout.jsx";
+import FeaturedProjects from "./components/FeaturedProjects.jsx";
+import ContactCTA from "./components/ContactCTA.jsx";
 import Footer from "./Footer.jsx";
-import Works from "./Works.jsx";
+
 
 
 function Home() {
   return (
     <>
-      <Nav />
-      <HeroCarousel />
-      {/* <Services /> */}
-      <Works />
-      <Contact />
-      <Footer />
+          <div className="min-h-screen flex flex-col">
+
+        <Nav />        
+        <HeroCarousel />
+        <HomeAbout />
+        <ServicesPreview />
+        <FeaturedProjects />
+        <ContactCTA />
+        <Footer />
+        </div>
     </>
   );
 }

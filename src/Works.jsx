@@ -1,94 +1,106 @@
-import React from "react";
-import "./App.css";
-import go from "../public/go.svg";
-import Nav from "./nav";
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import go from "../public/go.svg";
+import "./App.css";
 
 function Works() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const projects = [
+    {
+      image: "a.jpg",
+      category: "Residential",
+      title: "Modern Villa",
+      height: "h-[520px]",
+    },
+    {
+      image: "b.jpg",
+      category: "Landscape",
+      title: "Outdoor Living Space",
+      height: "h-[380px]",
+    },
+    {
+      image: "c.jpg",
+      category: "Interior",
+      title: "Luxury Renovation",
+      height: "h-[380px]",
+    },
+    {
+      image: "d.jpg",
+      category: "Commercial",
+      title: "Urban Workspace",
+      height: "h-[520px]",
+    },
+  ];
+
   return (
-    <>
-      <div className="w-full pt-10 ">
-        <div className="w-[95%] mx-auto">
-          {/* <div className="flex items-center gap-3 text-[#94D82D] ">
-              <img src="line.png"></img>
-              <p>Our recent works</p>
-            </div> */}
-          <div className="w-full pb-5 flex flex-col justify-center items-center gap-5 mt-5">
-            <h1 className="lg:text-4xl text-2xl  font-normal head ">
-              Some of our crafts made with love
-            </h1>
-            <p className="text-center font-light">
-              Discover the essence of our architectural vision through a curated
-              collection of our finest projects. Dive into our
-              <br /> portfolio and witness the artistry and innovation that
-              define our architectural practice.
-            </p>
-          </div>
+    <section className="w-full py-24">
+      <div className="w-[92%] max-w-7xl mx-auto">
+        {/* Heading */}
+        <div className="max-w-3xl mb-20">
+          <p className="uppercase tracking-[4px] text-[#94D82D] text-sm mb-4">
+            Featured Projects
+          </p>
 
-          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-7 w-[90%] mx-auto">
-            {/* <!-- Grid Item 1 --> */}
-            <div className="bg-gray-200 p-4">
-              <img
-                src="a.jpg"
-                alt="Image 1"
-                className="w-full h-60 object-cover"
-              />
-              <h2 className="text-xl font-bold mt-2 head">
-                Residential Building
-              </h2>
-              {/* <p className="mt-2">Description 1</p> */}
-            </div>
+          <h1 className="head text-4xl lg:text-6xl font-normal leading-tight">
+            Spaces Designed
+            <br />
+            With Purpose.
+          </h1>
 
-            {/* <!-- Grid Item 2 --> */}
-            <div className="bg-gray-200 p-4">
-              <img
-                src="b.jpg"
-                alt="Image 2"
-                className="w-full h-60 object-cover"
-              />
-              <h2 className="text-xl font-bold mt-2 head">
-                Outdoor sitting area{" "}
-              </h2>
-              {/* <p className="mt-2">Description 2</p> */}
-            </div>
-
-            {/* <!-- Grid Item 3 --> */}
-            <div className="bg-gray-200 p-4">
-              <img
-                src="c.jpg"
-                alt="Image 3"
-                className="w-full h-60 object-cover"
-              />
-              <h2 className="text-xl font-bold mt-2 head">
-                Interior Renovation
-              </h2>
-              {/* <p className="mt-2">Description 3</p> */}
-            </div>
-
-            {/* <!-- Grid Item 4 --> */}
-            <div className="bg-gray-200 p-4">
-              <img
-                src="d.jpg"
-                alt="Image 4"
-                className="w-full h-60 object-cover"
-              />
-              <h2 className="text-xl font-bold mt-2 head">Landscape Design</h2>
-              {/* <p className="mt-2">Description 4</p> */}
-            </div>
-          </div>
-
-          <div className="flex justify-center p-10">
-            <NavLink to="/Project">
-              <button className="bg-[#94D82D] px-7 py-2 font-medium text-white flex items-center">
-                {" "}
-                See All
-              </button>{" "}
-            </NavLink>
-          </div>
+          <p className="mt-8 text-gray-600 leading-8 text-lg">
+            Every project tells a story of thoughtful planning, refined
+            craftsmanship, and timeless design. Explore a curated selection of
+            spaces we've brought to life.
+          </p>
         </div>
-        <hr />
+
+        {/* Portfolio Grid */}
+        <div className="grid lg:grid-cols-2 gap-14">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="group cursor-pointer"
+            >
+              <div className="overflow-hidden rounded-3xl">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className={`w-full ${project.height} object-cover transition-transform duration-700 ease-out group-hover:scale-105`}
+                />
+              </div>
+
+              <div className="mt-6">
+                <p className="uppercase tracking-[3px] text-sm text-[#94D82D]">
+                  {project.category}
+                </p>
+
+                <h2 className="head text-3xl font-normal mt-2 group-hover:text-[#94D82D] transition-colors">
+                  {project.title}
+                </h2>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div className="flex justify-center mt-24">
+          <NavLink to="/Project">
+            <button className="group flex items-center gap-3 border border-black px-8 py-4 rounded-full hover:bg-black hover:text-white transition-all duration-300">
+              <span>View All Projects</span>
+
+              <img
+                src={go}
+                alt="arrow"
+                className="transition-transform duration-300 group-hover:translate-x-1"
+              />
+            </button>
+          </NavLink>
+        </div>
       </div>
-    </>
+    </section>
   );
 }
 
